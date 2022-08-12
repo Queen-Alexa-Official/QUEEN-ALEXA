@@ -1,0 +1,76 @@
+{
+  "name": "QUEEN ALEXA MD",
+  "description": "NOT PUBLISHED",
+  "repository": "https://github.com/Queen-Alexa-Official/QUEEN-ALEXA",
+  "avatar": "",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "env": { 
+        "ALIVE_MASSAGE": {
+            "description": "",
+            "required": true,
+            "value":""
+        },
+        "OWNER_NUMBER": {
+            "description": "",
+            "required": true,
+            "value":"94715264791"
+        },
+        "OWNER_NAME": {
+            "description": "",
+            "required": true,
+            "value":"Timasha Buddila"
+        },
+        "BOT_NAME": {
+            "description": "",
+            "required": true,
+            "value":"QUEEN ALEXA"
+        },
+       "STICKER_PACKAGE": {
+            "description": ""  
+            "required": true,
+            "value":"queen-alexa"
+        },
+        "SESSION": {
+            "description": "",
+            "required": false,
+            "value":"session"
+        },
+        "SONG_DOWNLOAD": {
+            "description": "",
+            "required": true,
+            "value":"_*I'm Searching your song*_ ✨➾🔎"
+        },
+        "SOND_UPLOAD": {
+            "description": "",
+            "required": true,
+            "value":"_*I'm Uploading your song*_ ✨➾🎲"
+        },
+        "VIDEO_DOWNLOAD": {
+            "description": "",
+            "required": true,
+            "value":"_*I'm Bringing your song*_ ✨➾🔎"
+        },
+         "VIDEO_UPLOAD": {
+            "description": "",
+            "required": true,
+            "value":"_*I'm Uploading your song*_ ✨➾🎲"
+        }
+   },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
