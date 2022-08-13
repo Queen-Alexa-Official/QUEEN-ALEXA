@@ -7,5 +7,5 @@
 <br>
 > Check To Bot <a href="https://chat.whatsapp.com/Lstgiwvbqms8BQbZNnrrlY"> Join </a> Bot Check Whatsapp Group
 <br>
-<br>
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
