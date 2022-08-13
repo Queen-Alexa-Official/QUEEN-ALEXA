@@ -1,14 +1,14 @@
 {
-  "name": "KING BOT - MD V2",
-  "description": "⎝🔥𝚱𝚰𝚴Ｇ🔥⎠ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴠ1.0.0",
+  "name": "QUEEN-ALEXA MD",
+  "description": "Not Published",
   "repository": "https://github.com/Queen-Alexa-Official/QUEEN-ALEXA",
-  "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
+  "logo": "https://telegra.ph/file/a39b38ec4564699e09a7d.png",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": { 
             "BOT_NAME": {
             "description": "බොට්ගෙ නම...",
             "required": true,
-            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘] ᎷᎠ"
+            "value":"QUEEN-ALEXA ᎷᎠ"
         },
             "SONG_DOWNLOAD": {
             "description": "",
