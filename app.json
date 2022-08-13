@@ -1,38 +1,38 @@
 {
-  "name": "QUEEN ALEXA MD",
-  "description": "NOT PUBLISHED",
-  "repository": "https://github.com/Queen-Alexa-Official/QUEEN-ALEXA",
-  "avatar": "",
+  "name": "KING BOT - MD V1",
+  "description": "⎝🔥𝚱𝚰𝚴Ｇ🔥⎠ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴠ1.0.0",
+  "repository": "https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD",
+  "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": { 
         "ALIVE_MASSAGE": {
-            "description": "",
-            "required": false,
+            "description": "දැම්මෙ නෑ කියලා අවුලක් නෑ...",
+            "required": true,
             "value":""
         },
         "OWNER_NUMBER": {
-            "description": "",
+            "description": "ඔයාගෙ නම්බර් එක දාන්න..",
             "required": true,
-            "value":"94715264791"
+            "value":"94729352830"
         },
         "OWNER_NAME": {
-            "description": "",
+            "description": "ඔයාගෙ නම දාන්න...",
             "required": true,
-            "value":"Timasha Buddila"
+            "value":"ШHłТΞ HΛϾКΞЯS"
         },
         "BOT_NAME": {
-            "description": "",
+            "description": "බොට්ගෙ නම...",
             "required": true,
-            "value":"QUEEN ALEXA"
+            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘] ᎷᎠ"
         },
        "STICKER_PACKAGE": {
-            "description": ""  
+            "description": "sticker පැකේජ් name එක දාන්න...",
             "required": true,
-            "value":"queen-alexa"
+            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘]"
         },
-        "SESSION": {
-            "description": "",
-            "required": false,
+        "SESSION_NAME": {
+            "description": "වෙනස් කරන්නම එපා...",
+            "required": true,
             "value":"session"
         },
         "SONG_DOWNLOAD": {
