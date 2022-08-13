@@ -7,7 +7,7 @@
   "env": { 
         "ALIVE_MASSAGE": {
             "description": "",
-            "required": true,
+            "required": false,
             "value":""
         },
         "OWNER_NUMBER": {
